@@ -1,0 +1,6 @@
+#启动服务
+php artisan server
+#启动服务，局域网内都能访问
+php artisan server --host=xxx.xxx.xxx.xxx
+#创建控制器
+php artisan make:controller PagesController
